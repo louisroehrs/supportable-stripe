@@ -34,7 +34,7 @@ export async function POST(req: Request) {
     console.log(`🔔  Webhook received: ${event.type}`);
   } catch (err: any) {
     console.log(`❌ Error message: ${err.message}`);
-    return new Response(`Webhook Error: ${err.message}`, { status: 400 });
+    return new Response(`Webhook Error: ${err.message}`, { status: 500 });
   }
 
   if (relevantEvents.has(event.type)) {
