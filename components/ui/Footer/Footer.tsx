@@ -15,7 +15,7 @@ export default function Footer() {
             <span className="mr-2 border rounded-full border-zinc-700">
               <Logo />
             </span>
-            <span>ACME</span>
+            <span>Supportable</span>
           </Link>
         </div>
         <div className="col-span-1 lg:col-span-2">
@@ -93,17 +93,13 @@ export default function Footer() {
       <div className="flex flex-col items-center justify-between py-12 space-y-4 md:flex-row bg-zinc-900">
         <div>
           <span>
-            &copy; {new Date().getFullYear()} ACME, Inc. All rights reserved.
+            &copy; {new Date().getFullYear()} Supportable, Inc. All rights reserved.
           </span>
         </div>
         <div className="flex items-center">
-          <span className="text-white">Crafted by</span>
-          <a href="https://vercel.com" aria-label="Vercel.com Link">
-            <img
-              src="/vercel.svg"
-              alt="Vercel.com Logo"
-              className="inline-block h-6 ml-4 text-white"
-            />
+          <span className="text-white">Crafted by a team of floofies.</span>
+          <a href="https://purratonic.com" aria-label="Purratonic Link">
+            😻 & 🐈 &
           </a>
         </div>
       </div>
